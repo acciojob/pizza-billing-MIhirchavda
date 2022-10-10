@@ -14,11 +14,11 @@ public class Pizza {
         // your code goes here
         if(isVeg){
             this.price += 300;
-            System.out.println("Base Price Of The Pizza: "+this.price +"\n");
+            System.out.println("Base Price Of The Pizza: "+ this.price);
         }
         else{
             this.price += 400;
-            System.out.println("Base Price Of The Pizza: "+this.price+"\n");
+            System.out.println("Base Price Of The Pizza: "+this.price);
         }
 
     }
@@ -32,7 +32,7 @@ public class Pizza {
         // your code goes here
         if(!ischeese) {
             this.price += 80;
-            System.out.println("Extra Cheese Added: 80\n");
+            System.out.println("Extra Cheese Added: 80");
             ischeese = true;
         }
     }
@@ -43,10 +43,10 @@ public class Pizza {
             istopping = true;
             if (isVeg) {
                 this.price += 70;
-                System.out.println("Extra Toppings Added: 70\n");
+                System.out.println("Extra Toppings Added: 70");
             } else {
                 this.price += 120;
-                System.out.println("Extra Toppings Added: 120\n");
+                System.out.println("Extra Toppings Added: 120");
             }
         }
     }
@@ -55,7 +55,7 @@ public class Pizza {
         // your code goes here
         if(!istakeway) {
             this.price += 20;
-            System.out.println("Paperbag Added: 20\n");
+            System.out.println("Paperbag Added: 20");
             istakeway = true;
         }
     }
