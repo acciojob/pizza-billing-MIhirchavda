@@ -18,7 +18,7 @@ public class Pizza {
         }
         else{
             this.price += 400;
-            System.out.println(" Base Price Of The Pizza: "+this.price+"\n");
+            System.out.println("Base Price Of The Pizza: "+this.price+"\n");
         }
 
     }
@@ -43,7 +43,7 @@ public class Pizza {
             istopping = true;
             if (isVeg) {
                 this.price += 70;
-                System.out.println("Extra Toppings Added: "+ 70+"\n");
+                System.out.println("Extra Toppings Added: "+70+"\n");
             } else {
                 this.price += 120;
                 System.out.println("Extra Toppings Added: "+120+"\n");
