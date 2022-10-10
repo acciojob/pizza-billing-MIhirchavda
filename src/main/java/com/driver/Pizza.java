@@ -59,34 +59,34 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        int callbill = 0;
+        int fullbill = 0;
         if(isVeg){
             System.out.println("Base Price Of The Pizza: 300");
-            callbill += 300;
+            fullbill += 300;
         }
         else {
             System.out.println("Base Price Of The Pizza: 400");
-            callbill += 400;
+            fullbill += 400;
         }
         if(ischeese){
             System.out.println("Extra Cheese Added: 80");
-            callbill += 80;
+            fullbill += 80;
         }
         if(istopping){
             if(isVeg){
                 System.out.println("Extra Toppings Added: 70");
-                callbill += 70;
+                fullbill += 70;
             }
             else{
                 System.out.println("Extra Toppings Added: 120");
-                callbill += 120;
+                fullbill += 120;
             }
         }
         if(istakeway) {
             System.out.println("Paperbag Added: 20");
-            callbill += 20;
+            fullbill += 20;
         }
-        this.bill = "Total Price: "+callbill;
+        this.bill = "Total Price: "+fullbill;
         return this.bill;
     }
 }
